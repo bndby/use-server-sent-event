@@ -7,7 +7,7 @@ React 17+
 ## Use hook
 
 ```tsx
-import { useServerSentEvent } from '@bndby/useServerSentEvent';
+import { useServerSentEvent } from 'use-server-sent-event';
 
 function MyComponent() {
     const {
