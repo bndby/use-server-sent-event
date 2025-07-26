@@ -1,5 +1,5 @@
 {
-  "name": "@bndby/use-server-sent-event",
+  "name": "use-server-sent-event",
   "version": "1.0.0",
   "description": "A hook for using server-sent events in React",
   "author": "https://bnd.by/",
@@ -35,6 +35,5 @@
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
-  },
-  "private": true
+  }
 }
