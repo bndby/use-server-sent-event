@@ -1,6 +1,6 @@
 {
   "name": "use-server-sent-event",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A hook for using server-sent events in React",
   "author": "https://bnd.by/",
   "repository": {
