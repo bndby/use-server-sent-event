@@ -1,5 +1,7 @@
 # React SSE Demo with useServerSentEvent
 
+[Русский](./README.md)
+
 This is a demonstration React application that shows how the `useServerSentEvent` hook from the parent folder works.
 
 ## Files
@@ -100,4 +102,4 @@ src/example/
 2. Open <http://localhost:3000/react> for the embedded version
 3. Or open the `react-demo.html` file in browser for the separate version
 4. Observe real-time data reception
-5. Use the "Clear messages" button to clear the history 
+5. Use the "Clear messages" button to clear the history

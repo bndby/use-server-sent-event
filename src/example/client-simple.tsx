@@ -21,10 +21,10 @@ function useServerSentEvent<T>(url: string, initialState?: T) {
       try {
         const newData = JSON.parse(event.data) as T;
         setData(newData);
-      } catch (err) {
+      } catch (_err) {
         // Если не JSON, пробуем как число
         const numValue = parseInt(event.data);
-        if (!isNaN(numValue)) {
+        if (!Number.isNaN(numValue)) {
           setData(numValue as T);
         } else {
           setData(event.data as T);
@@ -32,7 +32,7 @@ function useServerSentEvent<T>(url: string, initialState?: T) {
       }
     };
 
-    eventSource.onerror = (event) => {
+    eventSource.onerror = (_event) => {
       setError(new Error('SSE connection error'));
       setIsConnected(false);
       eventSource.close();

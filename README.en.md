@@ -1,5 +1,7 @@
 # useServerSentEvent
 
+[Русский](./README.md)
+
 React hook for working with Server-Sent Events (SSE).
 
 ## Installation
@@ -76,4 +78,4 @@ Detailed documentation in [src/example/README.md](src/example/README.md).
 - Error handling
 - TypeScript support
 - SSR compatibility
-- Optimized performance 
+- Optimized performance

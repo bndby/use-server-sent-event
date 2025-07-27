@@ -1,5 +1,7 @@
 # React SSE Demo с useServerSentEvent
 
+[English](./README.en.md)
+
 Это демонстрационное React приложение, которое показывает работу хука `useServerSentEvent` из родительской папки.
 
 ## Файлы

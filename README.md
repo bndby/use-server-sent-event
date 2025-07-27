@@ -1,5 +1,7 @@
 # useServerSentEvent
 
+[English](./README.en.md)
+
 React хук для работы с Server-Sent Events (SSE).
 
 ## Установка
